@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/python
+
 import time
 import roslib; roslib.load_manifest('ur_driver')
 

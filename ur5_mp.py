@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 """
     moveit_cartesian_path.py - Version 0.1 2016-07-28
@@ -66,7 +66,7 @@ class ur5_mp:
         self.end_effector_link = self.arm.get_end_effector_link()
 
         # Set the reference frame for pose targets
-        reference_frame = "/base_link"
+        reference_frame = "base_link"
 
         # Set the ur5_arm reference frame accordingly
         self.arm.set_pose_reference_frame(reference_frame)

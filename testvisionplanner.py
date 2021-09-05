@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 """
     moveit_cartesian_path.py - Version 0.1 2016-07-28
